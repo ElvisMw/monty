@@ -37,7 +37,7 @@ void ej_pall(stack_t **head, unsigned int number);
 void ej_pint(stack_t **head, unsigned int number);
 int execute(char *content, stack_t **head, unsigned int counter, FILE *file);
 void free_stack(stack_t *head);
-void el_pop(stack_t **head, unsigned int counter);
+void ej_pop(stack_t **head, unsigned int counter);
 void ej_swap(stack_t **head, unsigned int counter);
 void ej_add(stack_t **head, unsigned int counter);
 void ej_nop(stack_t **head, unsigned int counter);
