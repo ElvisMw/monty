@@ -1,10 +1,10 @@
 #include "monty.h"
 /**
- * ej_push - Adds an element to the stack or queue based on bus.lifi.
+ * ej_add - Adds an element to the stack or queue based on bus.lifi.
  * @head: Pointer to the head of the stack/queue.
  * @counter: Line number being processed.
  */
-void ej_push(stack_t **head, unsigned int counter)
+void ej_add(stack_t **head, unsigned int counter)
 {
 	int n, j = 0, flag = 0;
 

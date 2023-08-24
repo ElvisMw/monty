@@ -1,6 +1,6 @@
 #include "monty.h"
 
-void ej_queue(stack_t **head, unsigned int counter)
+void ej_queque(stack_t **head, unsigned int counter)
 {
 	(void)head;
 	(void)counter;
